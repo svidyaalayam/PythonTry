@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-tasks = []  # List to store tasks
+tasks = []  # Yes List to store tasks
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
